@@ -49,7 +49,7 @@ public class Ejemplo09 {
             cadena = String.format("%sCalificacion %d del estudiante %s\n",
                     cadena,
                     nota,
-                    nombre);
+                    nombre.toLowerCase());
             
             System.out.println("Ingrese (-111) si desea salir del ciclo; "
                     + "cualquier otro número para continuar");
