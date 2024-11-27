@@ -18,18 +18,11 @@ public class Ejemplo05 {
     public static void main(String[] args) {
         Scanner valores = new Scanner(System.in);
         
-        // 2. numero, i[0, n]
-        int numero;
-        // 3. potencia, i[0, n]
         int potencia;
-        // 6. resultado, i[0, n]
         int resultado;
-
-        resultado = 1;
-
-        int contador = 1;
-        
         int teclado;
+        resultado = 1;
+        int contador = 1;
         
         System.out.print("Ingrese el numero a elevar: ");
         teclado = valores.nextInt();
