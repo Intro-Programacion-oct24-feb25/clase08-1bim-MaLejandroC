@@ -39,8 +39,7 @@ public class Ejemplo03 {
 
         } while (bandera); // (bandera==true)
         
-        cadenaFinal = String.format("%s\n", cadenaFinal);
-        cadenaFinal = String.format("%s\nLa suma es%.2f", cadenaFinal, sumaNotas);
+        cadenaFinal = String.format("\nLa suma es: %.2f", sumaNotas);
         System.out.printf("Listado de Notas\n%s\n", cadenaFinal);
     }
 }
