@@ -40,6 +40,6 @@ public class Ejemplo03 {
         } while (bandera); // (bandera==true)
         
         cadenaFinal = String.format("\nLa suma es: %.2f", sumaNotas);
-        System.out.printf("Listado de Notas\n%s\n", cadenaFinal);
+        System.out.printf("\n%s\n", cadenaFinal);
     }
 }

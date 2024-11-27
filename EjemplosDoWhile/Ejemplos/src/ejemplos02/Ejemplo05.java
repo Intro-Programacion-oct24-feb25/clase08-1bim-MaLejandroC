@@ -7,6 +7,8 @@
  sean ingresados por teclado por el usuario.
  */
 package ejemplos02;
+
+import java.util.Scanner;
 /**
  *
  * @author reroes
@@ -14,23 +16,29 @@ package ejemplos02;
 public class Ejemplo05 {
 
     public static void main(String[] args) {
+        Scanner valores = new Scanner(System.in);
+        
         // 2. numero, i[0, n]
         int numero;
         // 3. potencia, i[0, n]
         int potencia;
         // 6. resultado, i[0, n]
         int resultado;
-        // numero <-- 4
-        numero = 4;
-        // 8. potencia <-- 3
-        potencia = 3;
-        // 9. resultado <-- 1
+
         resultado = 1;
 
         int contador = 1;
-
+        
+        int teclado;
+        
+        System.out.print("Ingrese el numero a elevar: ");
+        teclado = valores.nextInt();
+        System.out.print("Ingrese a que valore elevamos a"+teclado+": ");
+        potencia = valores.nextInt();
+        
+        
         do {
-            resultado = resultado * numero;
+            resultado = resultado * teclado;
             contador = contador + 1;
         } while (contador <= potencia);
 
